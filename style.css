@@ -3,3 +3,16 @@ h1 {
  font-size: 2.5em; /* В 2.5 раза больше стандартного */
  text-align: center;
 }
+
+@keyframes pulse {
+          0% { opacity: 0; } /* В начале анимации текст невидим */
+          50% { opacity: 1; } /* В середине анимации текст полностью виден */
+          100% { opacity: 0; } /* В конце анимации текст снова невидим */
+}
+
+.animated-h1 {
+          animation-name: pulse; /* Название созданной анимации */
+          animation-duration: 2s; /* Длительность одного цикла анимации */
+          animation-iteration-count: infinite; /* Количество повторений (infinite - бесконечно) */
+          animation-timing-function: ease-in-out; /* Функция затухания (плавное начало и конец) */
+        }
