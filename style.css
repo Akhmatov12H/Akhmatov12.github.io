@@ -16,3 +16,8 @@ h1 {
           animation-iteration-count: infinite; /* Количество повторений (infinite - бесконечно) */
           animation-timing-function: ease-in-out; /* Функция затухания (плавное начало и конец) */
         }
+
+body.dark {
+        --background-color: #121212; /* Темно-серый */
+        --text-color: white;
+    }
