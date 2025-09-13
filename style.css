@@ -17,7 +17,9 @@ h1 {
           animation-timing-function: ease-in-out; /* Функция затухания (плавное начало и конец) */
         }
 
-body.dark {
-        --background-color: #121212; /* Темно-серый */
-        --text-color: white;
-    }
+
+body
+{
+    background: #111;
+    color: #f4f4f4;
+}
